@@ -8,7 +8,7 @@ export default function Header() {
     const [menuActive, setMenuActive] = useState(false);
     return (
         <header>
-            <nav className="m-6 md:m-10 flex justify-between items-center">
+            <nav className="m-6 md:mx-12 mt-6   flex justify-between items-center">
                 <Link href="/" className="hidden md:block text-3xl font-bold text-gray-800 cursor-pointer">
                     Bertil Frigaard
                 </Link>

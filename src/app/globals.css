@@ -3,6 +3,10 @@
 
 @theme {
     --font-poppins: Poppins, monospace;
+    --color-primary1: #fecd61;
+    --color-primary2: #0e9fb5;
+    --color-primary3: #e31076;
 
-    --color-primary: #fecd61;
+    --color-primary4: #5cd121;
+    --color-primary: #f79d28;
 }
