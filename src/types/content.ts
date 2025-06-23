@@ -23,8 +23,22 @@ export interface ExperienceSection {
     items: ExperienceItem[];
 }
 
+export interface ProjectItem {
+    name: string;
+    link: string;
+    short: string;
+    tech: string[];
+}
+
+export interface ProjectSection {
+    title: string;
+    body: string[];
+    items: ProjectItem[];
+}
+
 export interface PortfolioContent {
     about: AboutSection;
     experience: ExperienceSection;
     contact: ContactSection;
+    projects: ProjectSection;
 }

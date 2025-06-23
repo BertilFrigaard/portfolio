@@ -7,7 +7,18 @@
             "Over the years, I’ve invested quite a bit of time in different languages, frameworks, and even courses. This has strengthened my fundamental programming knowledge and my ability to learn new technologies. This, combined with my strong internal motivation for software development, makes me ready to tackle any programming challenge headed my way."
         ]
     },
-    "projects": {},
+    "projects": {
+        "title": "Projects",
+        "body": ["Click a project for more details"],
+        "items": [
+            {
+                "name": "Snudget",
+                "link": "/projects/snudget",
+                "short": "A gamified budgeting app built with Node.js, PostgreSQL, and .NET MAUI. Track savings, compete with friends, and visualize progress with interactive charts.",
+                "tech": ["Node.js", "PostgreSQL", "Next.js", ".NET Maui"]
+            }
+        ]
+    },
     "experience": {
         "title": "Experience",
         "body": [
