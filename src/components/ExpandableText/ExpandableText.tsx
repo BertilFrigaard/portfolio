@@ -3,7 +3,6 @@ import { useState } from "react";
 
 export default function ExpandableText({ content }: { content: string[] }) {
     const [expanded, setExpanded] = useState(false);
-
     if (expanded) {
         return (
             <>
