@@ -1,7 +1,7 @@
 export default function ProjectCard() {
     return (
         <div className="rounded-2xl border border-gray-200 shadow-md p-6 bg-white hover:shadow-lg cursor-pointer transition-shadow group">
-            <div className="flex items-center justify-between">
+            <div className="md:flex justify-between md:mb-4">
                 <h2 className="text-2xl font-semibold text-gray-800">Snudget</h2>
                 <h3 className="opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 text-sm text-primary font-medium">
                     Click to view

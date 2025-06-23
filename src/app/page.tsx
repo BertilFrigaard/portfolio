@@ -1,19 +1,26 @@
 import Image from "next/image";
-
-import BouncingLink from "@/components/BouncingLink/BouncingLink";
+import Link from "next/link";
 
 import { IoMenu } from "react-icons/io5";
 import { FaArrowDown } from "react-icons/fa";
-import { PiDiamondBold, PiDiamondFill } from "react-icons/pi";
-import ProjectCard from "@/components/ProjectCard/ProjectCard";
+
+import BouncingLink from "@/components/BouncingLink/BouncingLink";
+import AboutSection from "@/components/Sections/AboutSection";
+import ContactSection from "@/components/Sections/ContactSection";
+import ExperienceSection from "@/components/Sections/ExperienceSection";
+import ProjectsSection from "@/components/Sections/ProjectsSection";
 
 export default function Home() {
     return (
         <>
             <header>
                 <nav className="m-10 flex justify-between items-center">
-                    <h1 className="hidden md:block text-3xl font-bold text-gray-800">Bertil Frigaard</h1>
-                    <h1 className="block md:hidden text-3xl font-bold text-gray-800">Bertil F.</h1>
+                    <Link href="/" className="hidden md:block text-3xl font-bold text-gray-800 cursor-pointer">
+                        Bertil Frigaard
+                    </Link>
+                    <Link href="/" className="block md:hidden text-3xl font-bold text-gray-800 cursor-pointer">
+                        Bertil F.
+                    </Link>
                     <div className="hidden md:flex gap-10 items-center text-lg">
                         <BouncingLink href="#about" className="hover:underline">
                             About
@@ -60,108 +67,15 @@ export default function Home() {
                     <FaArrowDown className="mt-2 animate-bounce text-2xl" />
                 </section>
 
-                <section className="pt-20 md:pt-0 space-y-6 text-center md:text-start">
-                    <h1 className="text-4xl font-bold text-gray-800 underline decoration-primary" id="about">
-                        About Me
-                    </h1>
-                    <p className="text-lg text-gray-700">
-                        I’m a passionate software developer focused on building engaging digital experiences. Whether
-                        it’s a sleek UI, a well-structured backend, or a creative side project, I love turning ideas
-                        into code.
-                    </p>
-                    <p className="text-lg text-gray-700">
-                        With a strong interest in full-stack development and a deep curiosity for learning new
-                        technologies, I’m always pushing to improve both personally and professionally.
-                    </p>
-                    <p className="text-lg text-gray-700">
-                        Outside of coding, I enjoy solving complex problems, contributing to open-source projects, and
-                        exploring the intersection of creativity and technology.
-                    </p>
-                </section>
+                <div className="space-y-20">
+                    <AboutSection />
 
-                <section className="pt-20 space-y-12 text-center md:text-start" id="projects">
-                    <h1 className="text-4xl font-bold text-gray-800 underline decoration-primary">Projects</h1>
+                    <ProjectsSection />
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                    </div>
-                </section>
+                    <ExperienceSection />
 
-                <section className="pt-20 space-y-12 text-center md:text-start">
-                    <h1 className="text-4xl font-bold text-gray-800 underline decoration-primary" id="experience">
-                        Experience
-                    </h1>
-
-                    <div className="relative ml-2 mt-10 space-y-16 pl-6 border-l-2 border-gray-300">
-                        {/* Item 1 */}
-                        <div className="relative flex items-start gap-4">
-                            <div className="shrink-0 bg-white rounded-full p-0.5 mt-1.5">
-                                <PiDiamondFill size={18} />
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-800">Lukkesleder</h2>
-                                <p className="text-sm text-gray-500">May 2023 – Now</p>
-                                <p className="mt-2 text-gray-600">[Short description here]</p>
-                            </div>
-                        </div>
-
-                        {/* Item 2 */}
-                        <div className="relative flex items-start gap-4">
-                            <div className="shrink-0 bg-white rounded-full p-0.5 mt-1.5">
-                                <PiDiamondBold size={20} />
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-800">Træner</h2>
-                                <p className="text-sm text-gray-500">Jul 2022 – May 2023</p>
-                                <p className="mt-2 text-gray-600">[Short description here]</p>
-                            </div>
-                        </div>
-
-                        {/* Item 3 */}
-                        <div className="relative flex items-start gap-4">
-                            <PiDiamondBold size={20} />
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-800">Omdeler</h2>
-                                <p className="text-sm text-gray-500">Aug 2020 – Aug 2023</p>
-                                <p className="mt-2 text-gray-600">[Short description here]</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="pt-20 space-y-6 text-center md:text-start">
-                    <h1 className="text-4xl font-bold text-gray-800 underline decoration-primary" id="contact">
-                        Contact
-                    </h1>
-
-                    <p className="text-lg text-gray-700">
-                        I&apos;m always open to new opportunities, collaborations, or just a friendly chat about tech,
-                        design, or startups. Whether you have a project in mind or simply want to connect, don’t
-                        hesitate to reach out.
-                    </p>
-
-                    <p className="text-lg text-gray-700">
-                        You can contact me directly via email at{" "}
-                        <a href="mailto:bertilfrigaard@gmail.com" className="text-primary underline">
-                            bertilfrigaard@gmail.com
-                        </a>
-                        , or connect with me on{" "}
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/in/bertil-frigaard-9081782ba"
-                            className="text-primary underline"
-                        >
-                            LinkedIn
-                        </a>{" "}
-                        for a more professional exchange.
-                    </p>
-
-                    <p className="text-lg text-gray-700">
-                        I do my best to respond quickly and thoughtfully. Looking forward to hearing from you!
-                    </p>
-                </section>
+                    <ContactSection />
+                </div>
             </main>
 
             <footer></footer>

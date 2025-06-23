@@ -1,0 +1,43 @@
+"use client";
+import { useState } from "react";
+
+export default function ExpandableText({ content }: { content: string[] }) {
+    const [expanded, setExpanded] = useState(false);
+
+    if (expanded) {
+        return (
+            <>
+                {content.map((value, key) => (
+                    <p key={key}>{value}</p>
+                ))}
+                <p
+                    className="text-primary text-sm cursor-pointer"
+                    onClick={() => {
+                        setExpanded(false);
+                    }}
+                >
+                    See less
+                </p>
+            </>
+        );
+    } else if (content.length >= 1) {
+        return (
+            <>
+                <p>
+                    {content[0].slice(0, 100)}
+                    {content[0].length > 100 && "..."}
+                </p>
+                <p
+                    className="text-primary text-sm cursor-pointer"
+                    onClick={() => {
+                        setExpanded(true);
+                    }}
+                >
+                    See more
+                </p>
+            </>
+        );
+    } else {
+        return;
+    }
+}

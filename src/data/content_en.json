@@ -1,0 +1,68 @@
+{
+    "about": {
+        "title": "About Me",
+        "body": [
+            "I’m a student with a passion for software development. From a young age, I’ve been fascinated by computers – especially the code that runs within them. ",
+            "I love turning ideas into code and have brought many of my own projects to life – which I encourage you to check out.",
+            "Over the years, I’ve invested quite a bit of time in different languages, frameworks, and even courses. This has strengthened my fundamental programming knowledge and my ability to learn new technologies. This, combined with my strong internal motivation for software development, makes me ready to tackle any programming challenge headed my way."
+        ]
+    },
+    "projects": {},
+    "experience": {
+        "title": "Experience",
+        "body": [
+            "From a young age, I’ve been working and gaining experience — something I intend to continue doing. I’m always open to opportunities to learn and grow, both personally and professionally. "
+        ],
+        "items": [
+            {
+                "employer": "Coop 356 Dildhaven",
+                "jobtitle": "Closing Manager",
+                "period": "Mar 2024 - now",
+                "current": true,
+                "body": [
+                    "As the responsiple manager I have to ensure everything runs smoothly, while leading the other workers.BLALBLALBLAAs a young worker i only worked here shortly, but i learned a lot about teamwork and retail.As the responsible instructor I was tasked with making sure everything wen't smoothly.",
+                    "From a young age, I’ve been working and gaining experience — something I intend to continue doing. I’m always open to opportunities to learn and grow, both personally and professionally.",
+                    "I love turning ideas into code and have brought many of my own projects to life – which I encourage you to check out.",
+                    "I’m always open to new opportunities, collaborations, or just a friendly chat about anything tech. Whether you have a project in mind or simply want to connect, don’t hesitate to reach out.",
+                    "Over the years, I’ve invested quite a bit of time in different languages, frameworks, and even courses. This has strengthened my fundamental programming knowledge and my ability to learn new technologies. This, combined with my strong internal motivation for software development, makes me ready to tackle any programming challenge headed my way."
+                ]
+            },
+            {
+                "employer": "Cybermesterskaberne 2025",
+                "jobtitle": "Junior",
+                "period": "May 2025",
+                "current": false,
+                "body": ["In this CTF competition, I demonstrated my technical skills by achieving 14th place."]
+            },
+            {
+                "employer": "SuperBrugsen Skovlunde",
+                "jobtitle": "Service Assistant",
+                "period": "Aug 2023 - Dec 2023",
+                "current": false,
+                "body": ["As a young worker i only worked here shortly, but i learned a lot about teamwork and retail."]
+            },
+            {
+                "employer": "Lyngby-Gladsaxe Volley",
+                "jobtitle": "Summer Camp Instructor",
+                "period": "Jul 2023",
+                "current": false,
+                "body": ["As the responsible instructor I was tasked with making sure everything wen't smoothly."]
+            },
+            {
+                "employer": "Lyngby-Gladsaxe Volley",
+                "jobtitle": "Volunteer Coach",
+                "period": "Sep 2020 - Jan 2022",
+                "current": false,
+                "body": ["Working here taught me about responsibility and communication. Clear communication was key."]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Get in Touch",
+        "body": [
+            "I’m always open to new opportunities, collaborations, or just a friendly chat about anything tech. Whether you have a project in mind or simply want to connect, don’t hesitate to reach out.",
+            "I look forward to hearing from you!"
+        ]
+    }
+}
