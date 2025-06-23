@@ -40,7 +40,6 @@ export default function SnudgetPage() {
                             With a clean design made for both mobile and desktop, Snudget keeps you connected and
                             motivated—anytime, anywhere. Track your progress on the go and stay ahead of the game.
                         </p>
-                        <p className="text-gray-600 leading-relaxed"></p>
                     </div>
                     <div className="md:w-1/2 w-full flex justify-center gap-2">
                         <div className="overflow-hidden rounded-2xl shadow-md transition-transform">

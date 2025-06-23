@@ -9,13 +9,19 @@
     },
     "projects": {
         "title": "Projects",
-        "body": ["Click a project for more details"],
+        "body": ["Click a project for more details."],
         "items": [
             {
                 "name": "Snudget",
                 "link": "/projects/snudget",
-                "short": "A gamified budgeting app built with Node.js, PostgreSQL, and .NET MAUI. Track savings, compete with friends, and visualize progress with interactive charts.",
-                "tech": ["Node.js", "PostgreSQL", "Next.js", ".NET Maui"]
+                "short": "Snudget is a fully responsive web app that lets friends compete on any goal they can imagine. Built with modern technologies and hosted on a private VPS, it’s deployed securely using Cloudflare tunnels.",
+                "tech": ["Next.js", "PostgreSQL", "Tailwind", "Cloudflare", "Node.js"]
+            },
+            {
+                "name": "Super Tic-Tac-Toe",
+                "link": "/projects/tic-tac-toe",
+                "short": "A strategic twist on the classic game, Super Tic-Tac-Toe features a 9x9 grid of nested boards. It supports both local play and real-time online multiplayer via WebSockets. Hosted on a custom domain and fully playable in the browser.",
+                "tech": ["React", "Websockets", "Node.js", "Cloudflare"]
             }
         ]
     },
@@ -31,11 +37,9 @@
                 "period": "Mar 2024 - now",
                 "current": true,
                 "body": [
-                    "As the responsiple manager I have to ensure everything runs smoothly, while leading the other workers.BLALBLALBLAAs a young worker i only worked here shortly, but i learned a lot about teamwork and retail.As the responsible instructor I was tasked with making sure everything wen't smoothly.",
-                    "From a young age, I’ve been working and gaining experience — something I intend to continue doing. I’m always open to opportunities to learn and grow, both personally and professionally.",
-                    "I love turning ideas into code and have brought many of my own projects to life – which I encourage you to check out.",
-                    "I’m always open to new opportunities, collaborations, or just a friendly chat about anything tech. Whether you have a project in mind or simply want to connect, don’t hesitate to reach out.",
-                    "Over the years, I’ve invested quite a bit of time in different languages, frameworks, and even courses. This has strengthened my fundamental programming knowledge and my ability to learn new technologies. This, combined with my strong internal motivation for software development, makes me ready to tackle any programming challenge headed my way."
+                    "As the responsiple manager I have to ensure everything runs smoothly, while leading the other workers.",
+                    "There is a lot of pressure on me because I carry the overall responsibility. If something goes wrong or a customer is unhappy, it's my job to handle the situation in the most appropriate and professional way.",
+                    "Keeping things running smoothly requires independence and strong problem-solving skills. Even after more than a year in this role, I still encounter new challenges. That’s when being solution-oriented becomes crucial."
                 ]
             },
             {
@@ -43,28 +47,42 @@
                 "jobtitle": "Junior",
                 "period": "May 2025",
                 "current": false,
-                "body": ["In this CTF competition, I demonstrated my technical skills by achieving 14th place."]
+                "body": [
+                    "In this CTF competition, I demonstrated my technical skills by achieving 14th place.",
+                    "The challenges covered a broad range of areas, including Web Exploitation, Binary Exploitation, and Reverse Engineering—where I particularly excelled in the latter two.",
+                    "I was challenged not only on my current skillset but also heavily on my ability to acquire new skills and solve problems I hadn’t encountered before."
+                ]
             },
             {
                 "employer": "SuperBrugsen Skovlunde",
                 "jobtitle": "Service Assistant",
                 "period": "Aug 2023 - Dec 2023",
                 "current": false,
-                "body": ["As a young worker i only worked here shortly, but i learned a lot about teamwork and retail."]
+                "body": [
+                    "As a young worker I only worked here shortly, but I still learned a lot about teamwork and about working in retail."
+                ]
             },
             {
                 "employer": "Lyngby-Gladsaxe Volley",
                 "jobtitle": "Summer Camp Instructor",
                 "period": "Jul 2023",
                 "current": false,
-                "body": ["As the responsible instructor I was tasked with making sure everything wen't smoothly."]
+                "body": [
+                    "As the responsible instructor, I was tasked with ensuring everything ran smoothly.",
+                    "I had the enormous responsibility of engaging a group of 25 kids for six hours a day. This required careful planning, effective execution, and clear communication with my team of assistant coaches.",
+                    "This role also challenged my problem-solving skills. The number of issues that arise during a week of summer camp surprised me—but no matter what came up, it was my job to handle it."
+                ]
             },
             {
                 "employer": "Lyngby-Gladsaxe Volley",
                 "jobtitle": "Volunteer Coach",
                 "period": "Sep 2020 - Jan 2022",
                 "current": false,
-                "body": ["Working here taught me about responsibility and communication. Clear communication was key."]
+                "body": [
+                    "Working here taught me a lot about responsibility and communication—clear communication was key.",
+                    "For part of the time, I participated as an Assistant Coach, but over time I developed into the role of Head Coach.",
+                    "As Head Coach, I was responsible for planning, communicating with parents, and teaching the kids various volleyball techniques."
+                ]
             }
         ]
     },

@@ -38,7 +38,7 @@ export default function ContactSection() {
                             href="https://github.com/BertilFrigaard"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-600 hover:text-gray-800 text-2xl transition-colors"
+                            className="text-gray-600 hover:text-gray-800 text-3xl transition-colors"
                             aria-label="GitHub"
                         >
                             <FaGithub />
@@ -47,7 +47,7 @@ export default function ContactSection() {
                             href="https://www.linkedin.com/in/bertil-frigaard-9081782ba"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-600 hover:text-gray-800 text-2xl transition-colors"
+                            className="text-gray-600 hover:text-gray-800 text-3xl transition-colors"
                             aria-label="LinkedIn"
                         >
                             <FaLinkedin />

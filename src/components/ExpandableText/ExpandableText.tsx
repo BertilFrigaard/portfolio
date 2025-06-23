@@ -8,7 +8,7 @@ export default function ExpandableText({ content }: { content: string[] }) {
         return (
             <>
                 {content.map((value, key) => (
-                    <p className="text-gray-800 text-base leading-relaxed mb-4" key={key}>
+                    <p className="text-gray-800 text-base leading-relaxed mb-2" key={key}>
                         {value}
                     </p>
                 ))}
@@ -27,7 +27,7 @@ export default function ExpandableText({ content }: { content: string[] }) {
             <>
                 <p className="text-gray-800 text-base leading-relaxed">
                     {content[0].slice(0, 100)}
-                    {content[0].length > 100 && "..."}
+                    {content[0].length > 100 ? "..." : content.length > 1 ? ".." : ""}
                 </p>
                 <p
                     className="text-primary text-sm cursor-pointer"
