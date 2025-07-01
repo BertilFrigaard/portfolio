@@ -20,6 +20,8 @@
 # production
 /build
 /dist
+robots.txt
+sitemap.xml
 
 # misc
 .DS_Store

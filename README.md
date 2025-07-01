@@ -19,5 +19,3 @@ Almost all text shown is saved in a JSON file which makes it easy to both change
 
 -   Improve image load time
 -   Fade in animations (Possible SEO implications)
--   Create sitemap
--   Create robots.txt
