@@ -31,7 +31,7 @@ export default function Home() {
                 </section>
 
                 <section className="hidden md:flex flex-col items-center justify-center mt-10 text-gray-600 text-lg py-20">
-                    <h2>Scroll down to see more</h2>
+                    <p>Scroll down to see more</p>
                     <FaArrowDown className="mt-2 animate-bounce text-2xl" />
                 </section>
 

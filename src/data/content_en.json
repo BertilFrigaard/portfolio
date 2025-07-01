@@ -8,7 +8,7 @@
         ]
     },
     "projects": {
-        "title": "Projects",
+        "title": "My Projects",
         "body": ["Click a project for more details."],
         "items": [
             {
@@ -26,7 +26,7 @@
         ]
     },
     "experience": {
-        "title": "Experience",
+        "title": "My Experience",
         "body": [
             "From a young age, I’ve been working and gaining experience — something I intend to continue doing. I’m always open to opportunities to learn and grow, both personally and professionally. "
         ],
@@ -87,7 +87,7 @@
         ]
     },
     "contact": {
-        "title": "Contact",
+        "title": "Contact Me",
         "subtitle": "Get in Touch",
         "body": [
             "I’m always open to new opportunities, collaborations, or just a friendly chat about anything tech. Whether you have a project in mind or simply want to connect, don’t hesitate to reach out.",

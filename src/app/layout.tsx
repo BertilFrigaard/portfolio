@@ -1,11 +1,45 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Sections/Header";
 import Footer from "@/components/Sections/Footer";
 
+export const viewport: Viewport = {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+};
+
 export const metadata: Metadata = {
-    title: "Bertil Frigaard",
-    description: "Software Developer",
+    title: "Bertil Frigaard – Software Developer",
+    description: "Creative software developer focused on learning and user-first experiences.",
+    keywords: ["Bertil Frigaard", "full-stack developer", "portfolio", "web developer", "software engineer"],
+    metadataBase: new URL("https://bertilfrigaard.dk"), // your site domain
+    openGraph: {
+        title: "Bertil Frigaard – Software Developer",
+        description: "Creative software developer focused on learning and user-first experiences.",
+        url: "https://bertilfrigaard.dk",
+        siteName: "Bertil Frigaard Portfolio",
+        images: [
+            {
+                url: "/preview.png", // your Open Graph preview image
+                width: 2137,
+                height: 1125,
+                alt: "Preview of Bertil Frigaard's portfolio",
+            },
+        ],
+        locale: "en_DK",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Bertil Frigaard – Portfolio",
+        description: "Creative software developer focused on learning and user-first experiences.",
+        images: ["/preview.png"],
+    },
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({

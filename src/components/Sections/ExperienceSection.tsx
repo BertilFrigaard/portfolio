@@ -25,9 +25,9 @@ export default function ExperienceSection() {
                                 <PiDiamondBold size={18} className="mt-1 flex-shrink-0" />
                             )}
                             <div>
-                                <h2 className="text-xl text-gray-800">
+                                <h3 className="text-xl text-gray-800">
                                     <b className="font-semibold">{experience.employer}</b>, {experience.jobtitle}
-                                </h2>
+                                </h3>
                                 <p className="text-sm text-gray-500">{experience.period}</p>
                                 <ExpandableText content={experience.body} />
                             </div>
